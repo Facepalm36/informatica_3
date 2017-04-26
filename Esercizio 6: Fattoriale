@@ -1,0 +1,24 @@
+
+/**************************
+ALunno:Denis Marchionni
+Classe:3INA
+Data:24/04/2017
+  Fattoriale
+  Versione 1.0
+**************************/
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+	int fat;
+	int num;
+	int i;
+	fat=1;
+	printf("Inserisci numero:");
+	scanf("%d", &num);
+	i=num;
+	while(i>0) {
+		fat=fat*i;
+		i--;
+	}
+	printf("Il fattoriale di %d e' :%d",num,fat);
+}
