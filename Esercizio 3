@@ -1,0 +1,16 @@
+/*****************************
+Alunno: Denis Marchionni
+Classe: 3ina
+Data: 26/04/2017
+Versione:1.0
+*****************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	 int N;
+	 printf("Inserire il numero");
+	 scanf("%d",& N);
+	 N=(N+1)*(N/2);
+	 printf("\n La somma dei primi N numeri e'  %d",N);
+}
