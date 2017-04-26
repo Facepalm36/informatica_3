@@ -1,0 +1,27 @@
+/*******************
+Alunno:Denis Marchionni
+Classe:3INA
+Data:26/04/2017
+Versione: 1.0
+********************/
+#include<stdio.h>
+#include<stdib.h>
+ int main(){
+	    int N;
+	    int I;
+	    int Num;
+	    int Somma;
+	    float Media;
+	    printf("Inserire quanti numeri si vuole\n");
+	    scanf("%d",&N);
+	    Somma=0;
+		I=0;
+		while(I<N){
+			        printf("Inserire numero\n");
+			        scanf("%d",&Num);
+			        Somma=Somma+Num;
+			        I++;
+		          }
+	    Media=Somma/N;
+	    printf("La media e':%f",Media);
+	}
