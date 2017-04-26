@@ -12,12 +12,12 @@ Versione: 1.0
 	    int Num;
 	    int Somma;
 	    float Media;
-	    printf("Inserire quanti numeri si vuole\n");
+	    printf("Inserire quanti numeri si vuole:");
 	    scanf("%d",&N);
 	    Somma=0;
 		I=0;
 		while(I<N){
-			        printf("Inserire numero\n");
+			        printf("Inserire numero:");
 			        scanf("%d",&Num);
 			        Somma=Somma+Num;
 			        I++;
