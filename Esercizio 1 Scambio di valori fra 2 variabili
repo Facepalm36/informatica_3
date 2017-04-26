@@ -1,0 +1,23 @@
+/**************************
+Alunno:Denis Marchionni
+Classe: 3ina
+Data: 26/04/2017
+Versione:1.0
+**************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int A; 
+	int B; 
+	int C;
+		printf("\n Inserisci primo valore\n");
+		scanf("%d",& A);
+		printf("\n Inserisci secondo valore\n");
+		scanf("%d",& B);
+		C=B;
+		B=A;
+		A=C;
+		printf("\n %d   %d ", A,B);
+		
+	}
