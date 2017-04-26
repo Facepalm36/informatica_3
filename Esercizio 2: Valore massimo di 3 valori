@@ -1,0 +1,30 @@
+/****************************
+Alunno: Denis Marchionni
+Classe: 3ina
+Data: 26/04/2017
+Versione:1.0
+****************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int N1;
+	int N2;
+	int N3;
+	int MAX;
+  printf("\n Inserisci primo valore\n");
+	scanf("%d",& N1);
+	printf("\n Inserisci secondo valore\n");
+	scanf("%d",& N2);
+	printf("\n Inserisci terzo valore\n");
+	scanf("%d",& N3);
+	if(N1>N2){
+		MAX=N1;
+	}else{
+		MAX=N2;
+	}
+	if (N3>MAX){
+		MAX=N3;
+	}
+	printf("\n Il valore massimo tra i 3 numeri è: %d", MAX);
+}
